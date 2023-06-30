@@ -1,0 +1,35 @@
+{
+  "name": "food-fast",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^24.0.0",
+    "@ckeditor/ckeditor5-upload": "^24.0.0",
+    "@ckeditor/ckeditor5-vue2": "^1.0.5",
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/firebase": "^6.1.1",
+    "@tinymce/tinymce-vue": "^3.2.8",
+    "core-js": "^3.6.5",
+    "firebase": "^7.24.0",
+    "moment": "^2.29.4",
+    "firebase-admin": "^11.0.1",
+    "firebase-functions": "^3.22.0",
+    "nuxt": "^2.14.6",
+    "vue-avatar-cropper": "^1.0.9"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/vuetify": "^1.11.2"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
